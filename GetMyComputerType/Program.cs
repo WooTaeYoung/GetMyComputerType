@@ -113,6 +113,7 @@ namespace GetMyComputerType
 									result = "Sealed-Case PC";
 									break;
 							}
+							Debug.WriteLine("PC Type >> " + result);
 						}
 					}
 				}
